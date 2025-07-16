@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar-custom {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+/* Bannière */
+.banner {
+    background: linear-gradient(90deg, #ec008c, #6739b6, #00c9a7);
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+.gradient-bordeur-wrapeur{
+    padding: 20px;
+    max-width:700px;
+    background: linear-gradient(90deg, #ec008c, #6739b6, #00c9a7);
+}
+.form-container{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+
